@@ -1,1 +1,2 @@
-let character = "Hello"
+let character = 'Hello';
+let secondCharacter;
