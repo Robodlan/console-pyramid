@@ -1,2 +1,3 @@
-let character = 'Hello';
-let count = 8;
+const character = 'Hello';
+const count = 8;
+const rows = [];
