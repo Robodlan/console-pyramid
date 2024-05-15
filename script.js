@@ -1,3 +1,6 @@
+const div = document.querySelector("#div");
+
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -9,7 +12,7 @@ for (let i = 0;i < count ;i += 1) {
 let result = "";
 
 for (const row of rows) {
-    result = result + "\n"  + row
+    result = result + "\n" + row
 }
 
-console.log(result)
+div.textContent = result
